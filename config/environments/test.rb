@@ -34,4 +34,6 @@ RailsinstallerDemo::Application.configure do
 
   # Print deprecation notices to the stderr
   config.active_support.deprecation = :stderr
+
+  config.gem "webrat", :lib => false, :version => ">= 0.4.3"
 end
